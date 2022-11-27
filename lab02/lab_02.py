@@ -1,3 +1,14 @@
+'''
+LAB #2
+Mishchenko Mikhail
+IDB-20-07
+2022
+
+git: 
+https://github.com/mixagood/stankin-web
+
+ALL TASKS + TESTS + CACHE_DECORATOR WITH PARAM
+'''
 def cache_decorator(counter=3):
     def _cache_decorator(func):
         cache = dict()
