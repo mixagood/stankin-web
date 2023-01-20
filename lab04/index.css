@@ -1,0 +1,39 @@
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.fulltitle {
+    font-size: 30px;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ingcard {
+    flex-basis: 33%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mixresult {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.rescard {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    flex-basis: 50%;
+}
